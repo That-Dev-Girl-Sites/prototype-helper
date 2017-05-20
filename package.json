@@ -1,0 +1,17 @@
+{
+  "name": "prototype-helper",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joni Halabi",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-sass": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-watch": "latest"
+  }
+}
