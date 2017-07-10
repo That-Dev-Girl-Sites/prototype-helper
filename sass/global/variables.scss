@@ -1,0 +1,14 @@
+// Fonts
+$sans: 'Open Sans', 'sans-serif';
+$serif: 'Mate', 'serif';
+
+// Sizes
+$header_height: 3.5rem;
+$header_border: 0.25rem;
+$body_height: calc(100vh - #{$header_height} - #{$header_border});
+
+// Colors
+$black: #222;
+$white: #fff;
+$red: #f7372a;
+$purple: #290866;

@@ -1,0 +1,40 @@
+/* ***
+ * Site header, including navigation trigger
+ */
+
+header {
+  background: $black;
+  border-bottom: $header_border solid $white;
+  box-sizing: border-box;
+  height: $header_height;
+  padding: 1rem;
+
+  h1 {
+    display: inline-block;
+  }
+
+  .menu-toggle {
+    background: $red;
+    border-radius: 0.25rem;
+    color: $white;
+    display: inline-block;
+    float: right;
+    font-size: 0.85rem;
+    font-weight: bold;
+    outline-color: $white;
+    padding: 0.5rem 1rem;
+    position: relative;
+    text-decoration: none;
+    top: -3px;
+    transition: background 0.5s ease;
+
+    &:before {
+      content:'\2630';
+      margin-right: 0.5rem;
+    }
+
+    &:hover, &:focus {
+      background: darken($red, 10%);
+    }
+  }
+}

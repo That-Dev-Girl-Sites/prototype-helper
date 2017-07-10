@@ -1,0 +1,28 @@
+body {
+  font-family: $sans;
+}
+
+h1 {
+  color: $white;
+  font-family: $serif;
+  font-size: 1.6rem;
+}
+
+p {
+  display: block;
+  line-height: 1.5;
+  margin: 1rem 1rem;
+  max-width: 960px;
+
+  @media screen and (min-width: 992px) {
+    margin: 1rem auto;
+  }
+}
+
+b {
+  font-weight: bold;
+}
+
+a {
+  transition: all 0.5s ease;
+}
