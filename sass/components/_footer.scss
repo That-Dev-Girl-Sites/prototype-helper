@@ -1,0 +1,18 @@
+footer {
+  background: darken($white, 10%);
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  padding: 1rem 1rem 0.5rem;
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  a {
+    color: $purple;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
