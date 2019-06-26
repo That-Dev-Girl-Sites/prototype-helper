@@ -1,0 +1,65 @@
+body {
+  font-family: $sans;
+}
+
+h1 {
+  color: $white;
+  font-family: $serif;
+  font-size: 1.6rem;
+}
+
+p {
+  display: block;
+  line-height: 1.5;
+  margin: 1rem;
+  max-width: 960px;
+
+  @media screen and (min-width: 992px) {
+    margin: 1rem auto;
+  }
+
+  &.ending {
+    margin-top: 2rem;
+  }
+}
+
+b {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+a {
+  color: $red;
+  transition: all 0.5s ease;
+
+  &:hover, &:focus {
+    color: darken($red, 10%);
+  }
+}
+
+main {
+  h2, ul {
+    display: block;
+    line-height: 1.5;
+    margin: 1rem;
+    max-width: 960px;
+
+    @media screen and (min-width: 992px) {
+      margin: 1rem auto;
+    }
+  }
+
+  li {
+    list-style-type: disc;
+    margin-left: 4rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 4rem;
+  }
+}

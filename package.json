@@ -1,7 +1,7 @@
 {
   "name": "prototype-helper",
   "version": "1.0.0",
-  "description": "---",
+  "description": "Static site bookmarking favorite prototyping tools",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,6 @@
   "devDependencies": {
     "gulp": "latest",
     "gulp-sass": "latest",
-    "gulp-minify-css": "latest",
-    "gulp-watch": "latest"
+    "gulp-minify-css": "latest"
   }
 }

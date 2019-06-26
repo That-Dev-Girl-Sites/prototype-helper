@@ -1,2 +1,3 @@
-# prototype-helper
-Comprehensive page of my favorite website prototyping tools
+# Prototype Helper
+
+Comprehensive page of my favorite website prototyping tools.
